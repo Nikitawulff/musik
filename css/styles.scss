@@ -101,9 +101,19 @@ img {
 
 }
 
+.omos {
+  color: whitesmoke;
+  font-family: Avenir, serif;
+}
+
+.btn {
+  background-color: #001b5d;
+}
+
+
 @media screen and (min-width: 601px) {
   .tekst {
-    font-size: 15px;                   
+    font-size: 15px;
   }
 }
 
@@ -113,7 +123,7 @@ img {
   }
 
   .billede {
-    width: 30%;
+    width: 20%;
   }
 
 #blink {
