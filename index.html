@@ -40,18 +40,34 @@
     <!--header billede-->
     <div class="container-fluid bg-sort">
         <div class="row">
-            <div class=" m-0 p-3">
+
+            <div class="col-none col-md-2 m-0 p-3">
+                <div class="d-flex justify-content-center"></div>
+            </div>
+
+            <div class="col-12 col-md-8 m-0 p-md-5">
                 <div class="d-flex justify-content-center">
                     <img src="images/logonew.png" class="billede" alt="pic3">
                 </div>
             </div>
+
+            <div class="col-none col-md-8 m-0 p">
+                <div class="d-flex justify-content-center"></div>
+            </div>
         </div>
     </div>
 
+
     <div class="containter">
         <div class="row">
-            <div class="text-center p-md-4 promovideo">
-                <h1>Se vores promoveringsvideo her!</h1>
+            <div class="text-center pb-md-5">
+    <p id="blink">Se vores promoveringsvideo her!</p>
+    <script type="text/javascript">
+        var blink = document.getElementById('blink');
+        setInterval(function() {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 1000);
+    </script>
             </div>
         </div>
     </div>
@@ -59,7 +75,7 @@
     <!--video-->
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex justify-content-center ">
+            <div class="col-12 d-flex justify-content-center">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/a_hohUKjwQk"
                         title="YouTube video player"></iframe>
             </div>
@@ -73,7 +89,7 @@
                 <img src="images/supernemt.jpeg" class="img-thumbnail" alt="pic1">
             </div>
 
-            <div class="col-12 col-lg-6 p-2 text-start bg-light">
+            <div class="col-12 col-lg-6 p-2 text-start bg-light beskrivelse">
                 <div class="pt-3 tekst1 text-center"><h2>Book os</h2></div>
                 <div class="tekst p-2 p-md-5"><a>#supernemt spiller musik af danske kunstnere.
                     Der er garanti for en masse, der kan synges med på.
@@ -96,7 +112,7 @@
 
     <div class="container mt-3 border border-dark">
         <div class="row">
-            <div class="col-12 col-lg-6 p-2 text-end bg-light">
+            <div class="col-12 col-lg-6 p-2 text-end bg-light beskrivelse">
                 <div class="pt-3 text-center tekst1"><h2>Hvem er vi?</h2></div>
                 <div class="tekst p-2 p-md-5"><a>Vi er 5 musikalske sjæle, som har fundet sammen
                     og vil gøre vores for at give kendte sange, et nyt liv med vores tag på dem.
